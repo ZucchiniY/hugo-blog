@@ -145,6 +145,14 @@ menus:
       pre: heartbeat
       weight: 5
 
+# ---------------------------------------------------------------
+# Google Adsense 配置
+# Google Adsense Settings
+# ---------------------------------------------------------------
+
+google:
+  adsense: ca-pub-2846657491221113
+
 #-----------------------------------------
 # Hugo NexT 主题参数配置
 # Configure Settings for Hugo NexT theme
@@ -698,6 +706,7 @@ params:
   # Google Webmaster tools verification.
   # See: https://developers.google.com/search
   googleSiteVerification: #<verify_code>
+  googleAdsense: ca-pub-2846657491221113
 
   # 微软 Bing 站验证
   # Bing Webmaster tools verification.
@@ -1111,3 +1120,4 @@ params:
   css: css
   js: js
   images: imgs
+
