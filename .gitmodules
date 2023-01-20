@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-next"]
 	path = themes/hugo-theme-next
 	url = https://github.com/ZucchiniY/hugo-theme-next.git
+[submodule "content"]
+	path = content
+	url = https://github.com/ZucchiniY/markdown.git
