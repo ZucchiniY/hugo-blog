@@ -145,14 +145,6 @@ menus:
       pre: heartbeat
       weight: 5
 
-# ---------------------------------------------------------------
-# Google Adsense 配置
-# Google Adsense Settings
-# ---------------------------------------------------------------
-
-google:
-  adsense: ca-pub-2846657491221113
-
 #-----------------------------------------
 # Hugo NexT 主题参数配置
 # Configure Settings for Hugo NexT theme
@@ -172,14 +164,14 @@ params:
 
   # 页面模式
   # Schemes
-  #scheme: Muse
-  #scheme: Mist
-  #scheme: Pisces
+  # scheme: Muse
+  # scheme: Mist
+  # scheme: Pisces
   scheme: Gemini
 
   # 开启暗模式
   # Dark Mode
-  darkmode: true
+  darkmode: false
 
 
   # 站点基本信息
@@ -706,7 +698,8 @@ params:
   # 谷歌站点验证
   # Google Webmaster tools verification.
   # See: https://developers.google.com/search
-  googleSiteVerification: #<verify_code>
+  # <meta name="google-site-verification" content="1zjaBYiW-491c1GSe5DRpRwZlop9RpQet7Kx8WYW1sY" />
+  googleSiteVerification: 1zjaBYiW-491c1GSe5DRpRwZlop9RpQet7Kx8WYW1sY #<verify_code>
   googleAdsense: ca-pub-2846657491221113
 
   # 微软 Bing 站验证
