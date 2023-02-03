@@ -310,8 +310,8 @@ params:
   # Key is the link label order.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   socials: 
-    social0: Github || https://github.com/elkan1788 || fab fa-github
-    #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
+    social0: Github || https://github.com/zucchiniy || fab fa-github
+    social1: E-Mail || mailto:banshiliuli1990@sina.com || fa fa-envelope
     # social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
     #Google: https://plus.google.com/yourname || fab fa-google
     #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -711,7 +711,7 @@ params:
   # Yandex 站点验证
   # Yandex Webmaster tools verification.
   # See: https://webmaster.yandex.ru
-  yandexSiteVerification: #<verify_code>
+  # yandexSiteVerification: #<verify_code>
 
   # 百度站点验证
   # Baidu Webmaster tools verification.
@@ -923,13 +923,13 @@ params:
     # 更多信息请参考：https://invite.51.la/1NUfGTS1?target=V6
     # 51La Analytics
     # See: https://invite.51.la/1NUfGTS1?target=V6 
-    #laId: #<anaytics_id> 
+    laId: JxfVCE5O2KLKi2Gf 
     # 百度统计
     # Baidu Analytics
-    #baidu: #<anaytics_id>
+    baidu: a4771c8099280b2c873799a827d5b68e
     # 谷歌统计
-    # Google Analytics
-    #google: #<anaytics_id>
+    # Google Analytics 4
+    google: G-GEDG4HBP5B
     # 不蒜子统计
     # Show Views / Visitors of the website / page with busuanzi.
     # For more information: http://ibruce.info/2015/04/04/busuanzi/
