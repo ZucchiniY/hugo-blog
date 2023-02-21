@@ -707,7 +707,7 @@ params:
   # Bing Webmaster tools verification.
   # See: https://www.bing.com/webmasters
   # <meta name="msvalidate.01" content="C7DD7C2CAEBD75CA9BE165FF0FBB1C5B" />
-  bingSiteVerification: #<verify_code>
+  bingSiteVerification: C7DD7C2CAEBD75CA9BE165FF0FBB1C5B #<verify_code>
 
   # Yandex 站点验证
   # Yandex Webmaster tools verification.
@@ -924,10 +924,10 @@ params:
     # 更多信息请参考：https://invite.51.la/1NUfGTS1?target=V6
     # 51La Analytics
     # See: https://invite.51.la/1NUfGTS1?target=V6 
-    laId: JxfVCE5O2KLKi2Gf 
+    # laId: JxfVCE5O2KLKi2Gf 
     # 百度统计
     # Baidu Analytics
-    baidu: a4771c8099280b2c873799a827d5b68e
+    # baidu: a4771c8099280b2c873799a827d5b68e
     # 谷歌统计
     # Google Analytics 4
     google: G-GEDG4HBP5B
