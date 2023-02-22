@@ -155,7 +155,7 @@ params:
   # and it's forlder name which under content
   # 阅读，开发相关，写作相关,理财投资,笔记
   # 笔记用来记录有启发的内容，单独作为一个系列
-  mainSections: ["reading","develop","writing","finacing"]
+  mainSections: ["develop","writing","finacing","health",""]
   # 年，月，日及时间的格式化样式
   # Format style for year,month,date & time
   yearFormat: "2006"

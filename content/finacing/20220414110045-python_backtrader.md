@@ -2,10 +2,10 @@
 title: "backtrader 使用笔记"
 author: ["夏南瓜"]
 date: 2022-04-14
-lastmod: 2023-02-14T14:37:57+08:00
+lastmod: 2023-02-22T10:37:00+08:00
 series: ["python"]
 tags: ["backtrader", "投资策略"]
-categories: ["Backtrader"]
+categories: ["量化"]
 draft: false
 ---
 

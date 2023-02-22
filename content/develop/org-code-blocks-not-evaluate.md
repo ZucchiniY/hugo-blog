@@ -2,10 +2,10 @@
 title: "Org Mode 导出时不执行代码段"
 author: ["夏南瓜"]
 date: 2023-02-21T00:00:00+08:00
-lastmod: 2023-02-21T16:49:23+08:00
+lastmod: 2023-02-22T09:49:41+08:00
 series: ["org-mode"]
 tags: ["org-mode", "org-export-use-babel"]
-categories: ["org-mode"]
+categories: ["开发"]
 draft: false
 ---
 
