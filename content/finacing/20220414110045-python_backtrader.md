@@ -2,7 +2,7 @@
 title: "backtrader 使用笔记"
 author: ["夏南瓜"]
 date: 2022-04-14
-lastmod: 2023-07-18T22:55:39+08:00
+lastmod: 2023-07-20T11:18:42+08:00
 series: ["python"]
 tags: ["backtrader", "投资策略"]
 categories: ["量化"]
@@ -632,4 +632,25 @@ cerebro.addobserver(bt.observers.Benchmark, data=benchmark_data, timeframe=bt.Ti
 
 ```python
 self.sma = {x: bt.ind.SMA(self.getdatabyname(x), period=self.p.maperiod) for x in self.getdatanames()}
+```
+
+
+## Backtrader 按周重新取样 {#backtrader-按周重新取样}
+
+之前实现开弓策略的时候，是用日线的倍数替代的周线，重新翻看对应的方法后，发现可以使用 `resample()` 方法将数据转换成周数据。
+
+```python
+data0 = bt.feeds.YahooFinanceData(datname='YHOO', fromdate=..., name='days')
+cerebro.adddata(data0)
+cerebro.resampledata(Data0, timeframe=bt.TimeFrame.Weeks, name='weeks')
+
+smadays = bt.ind.SMA(self.dnames.days, period=30)  # or self.dnames['days']
+smaweeks = bt.ind.SMA(self.dnames.weeks, period=10)  # or self.dnames['weeks']
+```
+
+做了转换之后，就需要将对应的开弓策略的买卖方案做一下修改，需要先按周数据获取指标的信息，然后再将对应的买卖转换到日数据上就可以了。
+
+```python
+self.data_day = [i for i in self.datas if i._name != 'benchmark' and not i._name.endswith('weeks')]
+self.data_weeks = [i for i in self.datas if i._name != 'benchmark' and i._name.endswith('weeks')]
 ```
