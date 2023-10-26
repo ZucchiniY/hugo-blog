@@ -1,0 +1,26 @@
+---
+title: "raycast 工具"
+author: ["夏南瓜"]
+date: 2023-10-26T00:00:00+08:00
+lastmod: 2023-10-26T09:55:59+08:00
+series: ["mac"]
+tags: ["raycast", "quicklink"]
+categories: ["开发"]
+draft: false
+---
+
+在 Mac 上想快速打开软件、文件或者搜索，之前一直使用的是 Alfred4 ，但是此工具是收费的，免费使用的功能比较少。
+
+此次主要是使用 Raycast 替代掉 Alfred4 。可以使用 homebrew 直接进行安装。
+
+```shell
+brew install --cask raycast
+```
+
+然后配置对应的搜索功能。
+
+```shell
+https://www.baidu.com/s?wd={Query}
+# or
+https://cn.bing.com/search?q={Query fs}
+```
