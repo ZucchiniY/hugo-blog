@@ -177,7 +177,9 @@ params:
 
   # 站点基本信息
   # Site Information Settings
-  author: 夏南瓜
+  author: 
+    name: 夏南瓜
+    email: "banshiliuli1990@sina.com"
   subtitle: 博客、笔记、理财、阅读
   description: 个人知识库、笔记库
   keywords: reading,thinking,learning,org-mode,ox-hugo,org-roam,
