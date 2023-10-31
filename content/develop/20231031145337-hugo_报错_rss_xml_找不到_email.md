@@ -2,7 +2,7 @@
 title: "hugo 报错 rss.xml 找不到 email"
 author: ["夏南瓜"]
 date: 2023-10-31T00:00:00+08:00
-lastmod: 2023-10-31T15:09:09+08:00
+lastmod: 2023-10-31T15:30:11+08:00
 series: ["hugo"]
 tags: ["hugo", "rss", "email"]
 categories: ["开发"]
@@ -25,4 +25,13 @@ author:
   email: xxxxxx@xxx.com
 ```
 
-再重新生成即可。
+修改之后，需要同步修改 author.name 的获取方式：
+
+```html
+.Site.Params.author.name
+
+$author = .Site.Params.author
+name = $author.name
+```
+
+将所有的模板同步修改之后，即可正常生成项目。
