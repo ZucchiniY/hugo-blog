@@ -2,7 +2,7 @@
 title: "orbstack 工具"
 author: ["夏南瓜"]
 date: 2023-10-31T00:00:00+08:00
-lastmod: 2023-10-31T12:04:00+08:00
+lastmod: 2023-11-01T08:49:59+08:00
 series: ["mac"]
 tags: ["orbstack", "docker"]
 categories: ["开发"]
@@ -14,6 +14,13 @@ orbstack 是在 Mac 环境上使用，可以替代虚拟机的工具，可以非
 ```shell
 brew install orbstack --cask # 安装 orbstack
 brew upgrade --greedy orbstack # 升级 orbstack
+```
+
+安装之后，会自动系统的 profile 文件中添加设置，使用的是 zsh 则添加到 .zprofile 中:
+
+```shell
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 ```
 
 最主要的优势是轻量、启动快、占用资源少，对于寸土寸金的 Mac 电脑来说，这是非常重要的。
