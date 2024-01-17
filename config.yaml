@@ -165,10 +165,10 @@ params:
 
   # 页面模式
   # Schemes
-  scheme: Muse
+  # scheme: Muse
   # scheme: Mist
   # scheme: Pisces
-  # scheme: Gemini
+  scheme: Gemini
 
   # 开启暗模式
   # Dark Mode
